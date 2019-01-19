@@ -1,0 +1,125 @@
+/*
+* Leah Rizzo
+* October 11, 2018
+* CSS
+*/
+
+/* Name:
+* Date:
+* Lab: C13 Fluid Layout Exercise */
+/* Zero margin and padding */
+* {
+ margin: 0;
+ padding: 0;
+}
+/* What is displayed format*/
+body {
+ width: 95%;
+ background-color: lightsteelblue;
+ margin: 15px auto;
+ border: 1px solid black;
+ border-color: darkblue;
+}
+/* My h1 padding*/
+h1 {
+ padding: 10px;
+}
+/* How my title looks */
+header {
+ border-bottom: 2px solid #ef9c00;
+ font-family: cursive, sans-serif;
+ border-color: darkblue;
+}
+/* What my left column looks like when edited */
+#sidebarA {
+ width:25%;
+ height:auto;
+ float:left;
+ border-right: 2px solid #ef9c00;
+ padding: 1em;
+ border-color: darkblue;
+}
+/* How my main is displayed once edited */
+main {
+ width: 48%;
+ height:150%;
+ float:left;
+ padding: .5em;
+ border-color: darkblue;
+}
+/* My right column once edited */
+#sidebarB {
+ padding:.5em;
+ width:22%;
+ height:auto;
+ float:right;
+ border-left: 2px solid #ef9c00;
+ border-color: darkblue;
+}
+/* Where I edited my sources and disclaimer */
+footer {
+ clear: both;
+ border-top: 2px solid #ef9c00;
+ border-color: darkblue;
+}
+
+li{padding: .5em;}
+/* My first image of Anne Sullivan edited */
+ #AnneSullivan{float: left;
+border-top:3px solid  black;
+border-right:3px solid  black;
+border-bottom:3px solid black;
+border-left:3px solid black; 
+    
+border-width: 3px;
+border-width: 5px;
+border-width: 3px;
+border width: 5px; 
+    
+margin-top: 1em;
+margin-right: .5em;
+margin-bottom: 1em;
+margin-left: .5em;}
+/* My three classes I used to edit my HTML */
+.ap{padding-bottom:10px;}
+
+.ht{text-decoration: underline;}
+
+.iz{font-family: cursive, sans-serif;}
+/* My second image used i my left column */
+#HelenandAnne{border-top:3px solid  black;
+border-right:3px solid  black;
+border-bottom:3px solid black;
+border-left:3px solid black; 
+    
+border-width: 3px;
+border-width: 5px;
+border-width: 3px;
+border width: 5px; 
+    
+margin-top: 1em;
+margin-right: .5em;
+margin-bottom: 1em;
+margin-left: .5em;
+
+width: 300px; height: 200px;
+}
+/* Another class I used to edit my HTML */
+.bp{padding-bottom:10px;}
+/* My third image I used in my right column */
+#AnneHelen{border-top:3px solid  black;
+border-right:3px solid  black;
+border-bottom:3px solid black;
+border-left:3px solid black; 
+    
+border-width: 3px;
+border-width: 5px;
+border-width: 3px;
+border width: 5px; 
+    
+margin-top: 1em;
+margin-right: .5em;
+margin-bottom: 1em;
+margin-left: .5em;
+
+width: 250px; height: 150px;}
